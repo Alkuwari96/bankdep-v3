@@ -1,3 +1,10 @@
 include MANIFEST.in
 include requirements.txt
-recursive-include bank_deposit *
+include setup.py
+include patches.txt
+recursive-include bank_deposit *.py
+recursive-include bank_deposit/config *.py
+recursive-include bank_deposit/doctype *
+recursive-include bank_deposit/public *
+recursive-include bank_deposit/templates *
+recursive-include bank_deposit/modules.txt
